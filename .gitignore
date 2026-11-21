@@ -1,0 +1,41 @@
+# Environment files and local secrets
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!*.env.example
+key.env
+key.env.*
+
+# Private keys and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.aws/
+
+# Dependencies
+node_modules/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+.next/
+.cache/
+
+# Local development files
+.DS_Store
+Thumbs.db
+*.log
+*.local
+.hallmark/
+
+# Editor and OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
